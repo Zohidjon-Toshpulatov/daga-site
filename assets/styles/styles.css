@@ -4,7 +4,7 @@
     z-index: 3;
 }
 
-.header img {
+.header .bg-header {
     position: absolute;
     width: 100%;
     z-index: 2;
@@ -13,9 +13,11 @@
 
 
 .logo{
+    position: absolute;
     height: 150px;
+    top: 10px;
     width: 285px !important;
-    margin: 320px 42.5% 0 42.5%;
+    margin: 0px 42.5% 0 42.5%;
     z-index: 6;
 
 }
