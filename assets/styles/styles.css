@@ -130,8 +130,8 @@
 }
 
 .footer-logo {
-    width: 433px;
-    height: 231px;
+    max-width: 433px;
+    max-height: 231px;
 }
 
 .footer-social-link {
@@ -151,8 +151,8 @@
 .footer-img-4,
 .footer-img-4,
 .footer-img-4 {
-    width: 160px;
-    height: 120px;
+    max-width: 160px;
+    max-height: 120px;
 }
 
 
