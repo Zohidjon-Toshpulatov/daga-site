@@ -309,6 +309,10 @@ margin-top: 140px;
     border: 2px solid #00ABDB;
 }
 
+.contact-main input.form-control{
+    height: 50px;
+}
+
 .contact-main label{
     font-size: 30px;
     line-height: 1;
