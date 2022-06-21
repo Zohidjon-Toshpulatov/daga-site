@@ -8,165 +8,218 @@
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
     <script src="./assets/bootstrap/js/bootstrap.min.js" defer></script>
     <link
-            href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Varela+Round&display=swap"
-            rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Varela+Round&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/styles.css">
     <title>Daga</title>
 </head>
 
 <body class="postion-relative" dir="rtl">
-<!-- <section class="header w-100">
-    <img src="./assets/images/header.png" alt="" class="bg-header">
-    <a href="menu.html" class="text-decoration-none text-white d-block mx-auto">
-        <img src="./assets/images/Logo.png" alt="" class="logo">
-    </a>
-</section> -->
-<nav class="navigation position-relative" dir="rtl">
-    <!--        <section class="header w-100">-->
-    <img src="./assets/images/header.png" alt="" class="bg-header">
-    <!--        </section>-->
-    <div class="container-fluid d-flex justify-content-center nav-container">
-        <ul class="d-flex align-items-center justify-content-evenly mb-0">
-            <li class="list-style-none">
-                <a href="index.html" class="text-decoration-none text-white">
-                    <span class="pl-2">הסיפור שלנו</span>
-                    <img src="./assets/images/swallow.png" alt="" class="curve">
-                </a>
-            </li>
-            <li class="list-style-none">
-                <a href="products-card.html" class="text-decoration-none text-white">
-                    <span class="pl-2">הדגים שלנו</span>
-                    <img src="./assets/images/swallow.png" alt="" class="curve">
-                </a>
-            </li>
-            <li class="list-style-none">
-                <a href="about.html" class="text-decoration-none text-white">
-                    <img src="" alt="" class="">
-                    <span class="pl-2">נקודות מכירה</span>
-                </a>
-            </li>
-            <li class="list-style-none">
-                <img src="./assets/images/Logo.png" alt="" class="logo">
-            </li>
-            <li class="list-style-none">
-                <a href="contact.html" class="text-decoration-none text-white">
-                    <span class="pl-2">מן התקשורת</span>
-                    <img src="./assets/images/swallow.png" alt="" class="curve">
-                </a>
-            </li>
-            <li class="list-style-none">
-                <a href="blog.html" class="text-decoration-none text-white">
-                    <span class="pl-2">המתכונים שלנו</span>
-                    <img src="./assets/images/swallow.png" alt="" class="curve">
-                </a>
-            </li>
-            <li class="list-style-none">
-                <a href="brands.html" class="text-decoration-none text-white">
-                    <span class="pl-2">צור קשר</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<section class="hero">
-    <div class="hero-heading text-center py-2">
+
+    <nav class="navigation position-relative d-none d-lg-block" dir="rtl">
+        <img src="./assets/images/header.png" alt="" class="bg-header">
+        <div class="container-fluid d-flex justify-content-center nav-container">
+            <ul class="d-flex align-items-center justify-content-evenly mb-0">
+                <li class="list-style-none">
+                    <a href="index.html" class="text-decoration-none text-white">
+                        <span class="pl-2">הסיפור שלנו</span>
+                        <img src="./assets/images/swallow.png" alt="" class="curve">
+                    </a>
+                </li>
+                <li class="list-style-none">
+                    <a href="products-card.html" class="text-decoration-none text-white">
+                        <span class="pl-2">הדגים שלנו</span>
+                        <img src="./assets/images/swallow.png" alt="" class="curve">
+                    </a>
+                </li>
+                <li class="list-style-none">
+                    <a href="about.html" class="text-decoration-none text-white">
+                        <img src="" alt="" class="">
+                        <span class="pl-2">נקודות מכירה</span>
+                    </a>
+                </li>
+                <li class="list-style-none">
+                    <a href="/menu.html">
+                        <img src="./assets/images/Logo.png" alt="" class="logo">
+                    </a>
+                </li>
+                <li class="list-style-none">
+                    <a href="contact.html" class="text-decoration-none text-white">
+                        <span class="pl-2">מן התקשורת</span>
+                        <img src="./assets/images/swallow.png" alt="" class="curve">
+                    </a>
+                </li>
+                <li class="list-style-none">
+                    <a href="blog.html" class="text-decoration-none text-white">
+                        <span class="pl-2">המתכונים שלנו</span>
+                        <img src="./assets/images/swallow.png" alt="" class="curve">
+                    </a>
+                </li>
+                <li class="list-style-none">
+                    <a href="brands.html" class="text-decoration-none text-white">
+                        <span class="pl-2">צור קשר</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg d-lg-none nav-mobile navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/Logo.png" alt="logo" class="navbar-brand-logo">
+            </a>
+            <button class="navbar-toggler border-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">
+                            <span class="pl-2">הסיפור שלנו</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products-card.html">
+                            <span class="pl-2"> הדגים שלנו</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            <span class="pl-2">נקודות מכירה</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">
+                            <span class="pl-2">מן התקשורת</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <span class="pl-2">המתכונים שלנו</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">
+                            <span class="pl-2">צור קשר</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="brands.html">
+                            <span class="pl-2">הסיפור שלנו</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero-heading text-center py-2">
+            <h1 class="mb-0">
+                דגת הארץ - טרי. בריא. ישראלי<br>
+                עיבוד, אריזה, הפצה ומכירה של דגים טריים ברחבי הארץ<br>
+                מאז 2008
+            </h1>
+        </div>
+    </section>
+    <div class="section-text text-center">
         <h1 class="mb-0">
-            דגת הארץ - טרי. בריא. ישראלי<br>
-            עיבוד, אריזה, הפצה ומכירה של דגים טריים ברחבי הארץ<br>
-            מאז 2008
+            למה דגת הארץ?
         </h1>
     </div>
-</section>
-<div class="section-text text-center">
-    <h1 class="mb-0">
-        למה דגת הארץ?
-    </h1>
-</div>
-<section class="section-cards py-60">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card bg-transparent border-0">
-                    <div class="card-img d-flex justify-content-center align-items-center">
-                        <img src="./assets/images/manwithfish.png" class="man-fish mx-auto" alt="man with fish">
-                    </div>
-                    <div class="card-body text-white text-center">
-                        <h5 class="card-title mb-0 fw-bold">
-                            בגלל הטריות
-                        </h5>
-                        <p class="card-text mb-0 fw-light">
-                            דגים טריים ואיכותיים<br>
-                            מהבריכה היישר אל הצלחת
-                        </p>
+    <section class="section-cards py-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-img d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/manwithfish.png" class="man-fish mx-auto" alt="man with fish">
+                        </div>
+                        <div class="card-body text-white text-center">
+                            <h5 class="card-title mb-0 fw-bold">
+                                בגלל הטריות
+                            </h5>
+                            <p class="card-text mb-0 fw-light">
+                                דגים טריים ואיכותיים<br>
+                                מהבריכה היישר אל הצלחת
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card bg-transparent border-0">
-                    <div class="card-img d-flex justify-content-center align-items-center">
-                        <img src="./assets/images/tablecloth.png" class="tablecloth mx-auto" alt="man with fish">
-                    </div>
-                    <div class="card-body text-white text-center">
-                        <h5 class="card-title mb-0 fw-bold">
-                            בגלל הטריות
-                        </h5>
-                        <p class="card-text mb-0 fw-light">
-                            דגים טריים ואיכותיים<br>
-                            מהבריכה היישר אל הצלחת
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card bg-transparent border-0">
-                    <div class="card-img  d-flex justify-content-center align-items-center">
-                        <img src="./assets/images/flag.png" class="flag mx-auto" alt="man with fish">
-                    </div>
-                    <div class="card-body text-white text-center">
-                        <h5 class="card-title mb-0 fw-bold">
-                            בגלל הטריות
-                        </h5>
-                        <p class="card-text mb-0 fw-light">
-                            דגים טריים ואיכותיים<br>
-                            מהבריכה היישר אל הצלחת
-                        </p>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-img d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/tablecloth.png" class="tablecloth mx-auto" alt="man with fish">
+                        </div>
+                        <div class="card-body text-white text-center">
+                            <h5 class="card-title mb-0 fw-bold">
+                                בגלל הטריות
+                            </h5>
+                            <p class="card-text mb-0 fw-light">
+                                דגים טריים ואיכותיים<br>
+                                מהבריכה היישר אל הצלחת
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0">
+                        <div class="card-img  d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/flag.png" class="flag mx-auto" alt="man with fish">
+                        </div>
+                        <div class="card-body text-white text-center">
+                            <h5 class="card-title mb-0 fw-bold">
+                                בגלל הטריות
+                            </h5>
+                            <p class="card-text mb-0 fw-light">
+                                דגים טריים ואיכותיים<br>
+                                מהבריכה היישר אל הצלחת
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-        </div>
-    </div>
-</section>
-<footer class="footer py-60">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 d-flex align-items-center">
-                <img src="./assets/images/Logo.png" alt="" class="footer-logo">
-                <a href="" class="d-block">
-                    <img src="./assets/images/instagram.png" alt="instagram" class="footer-social-link d-block">
-                </a>
-                <a href="" class="d-block">
-                    <img src="./assets/images/facebook.png" alt="facebook" class="footer-social-link d-block">
-                </a>
-            </div>
-            <div class="col-md-6 class d-flex flex-column">
-                <div class="text-white d-flex flex-column pe-4">
-                    <p class="fw-bold mb-0">דגת הארץ</p>
-                    <p class="mb-0 fw-ligt">
-                        שיווק, הפצה, עיבוד, אריזה ומכירה של דגים טריים וקפואים<br>
-                        קיבוץ ניר דוד, ד.נ. עמק המעינות 10803 | 053-9414486
-                    </p>
-                </div>
-                <div class="d-flex justify-content-end">
-                    <img src="./assets/images/footerMask4.png" alt="mask" class="footer-img-4">
-                    <img src="./assets/images/footerMask3.png" alt="mask" class="footer-img-3">
-                    <img src="./assets/images/footerMask2.png" alt="mask" class="footer-img-2">
-                    <img src="./assets/images/footerMask1.png" alt="mask" class="footer-img-1">
-                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </section>
+    <footer class="footer py-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center justify-content-center justify-content-md-start">
+                    <img src="./assets/images/Logo.png" alt="" class="footer-logo">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <a href="" class="d-block">
+                            <img src="./assets/images/instagram.png" alt="instagram" class="footer-social-link d-block">
+                        </a>
+                        <a href="" class="d-block">
+                            <img src="./assets/images/facebook.png" alt="facebook" class="footer-social-link d-block">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 class d-flex flex-column">
+                    <div
+                        class="text-white d-flex flex-column align-items-center align-items-md-start pe-4 my-3 my-md-0">
+                        <p class="fw-bold mb-0">דגת הארץ</p>
+                        <p class="mb-0 fw-ligt">
+                            שיווק, הפצה, עיבוד, אריזה ומכירה של דגים טריים וקפואים<br>
+                            קיבוץ ניר דוד, ד.נ. עמק המעינות 10803 | 053-9414486
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-evenly justify-content-md-end align-items-center">
+                        <div class="d-flex flex-column align-items-center justify-content-center flex-lg-row">
+                            <img src=" ./assets/images/footerMask4.png" alt="mask" class="footer-img">
+                            <img src="./assets/images/footerMask3.png" alt="mask" class="footer-img">
+                        </div>
+                        <div class="d-flex flex-column align-items-center justify-content-center flex-lg-row">
+                            <img src="./assets/images/footerMask2.png" alt="mask" class="footer-img">
+                            <img src="./assets/images/footerMask1.png" alt="mask" class="footer-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
