@@ -358,190 +358,6 @@ body{
 
 /* Contact end */
 
-
-@media screen and (max-width: 430px){
-    .nav-mobile{
-        background-color: #020B4F;
-    }
-
-    
-
-    .navbar-brand-logo{
-        width: 150px;
-        height: 100px;
-    }
-    .nav-link{
-        font-size: 25px;
-    }
-
-    .hero-heading h1 {
-        font-size: 30px;
-    }
-
-    .hero {
-        background-image: url('./../images/home-hero.png');
-        background-position:center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-size: 100% 450px;
-        width: 100%;
-        height: 450px;
-    }
-
-    .footer {
-        border-top: 6px solid #00ABDB;
-        background-color: #020B4F;
-    }
-
-    .footer-logo {
-        max-width: 200px;
-        min-width: 100px;
-        /* max-height: 150px; */
-        height: 100px;
-    }
-
-    .footer-social-link {
-        padding-top: 16px;
-        margin-right: 16px;
-    }
-
-    .footer p.fw-bold {
-        font-size: 32px;
-    }
-
-    .footer p.fw-light {
-        font-size: 29px;
-    }
-
-    .footer-img {
-       width: 120px;
-       height: 100px;
-    }
-
-
-    /* Product-Page-Start */
-    .products-card-header h1,
-    .products-card-header p {
-        color: #020B4F;
-        line-height: 1;
-        font-weight: bold;
-    }
-
-    .products-card-header h1 {
-        font-size: 32px;
-    }
-
-    .products-card-header p {
-        font-size: 28px;
-    }
-
-    .product-cards-section {
-        margin-top: 47px;
-        margin-bottom: 167px;
-    }
-
-    .product-cards-section .mt-100 {
-        margin-top: 0;
-    }
-
-    .product-cards-section .pl-18 {
-        padding-left: 0;
-    }
-
-    .product-cards-section .pr-44 {
-        padding-right: 0;
-    }
-
-    .single-product-card {
-        height: 428px;
-    }
-
-    .single-product-card .card-img-top {
-        height: 320px;
-        width: 210px;
-    }
-
-    .single-product-card .card-body {
-        padding: 0;
-        width: 210px;
-    }
-
-    /* Product-Page end */
-
-    /* About-Page start*/
-    .about-main-content p {
-        color: #020B4F;
-        font-size: 47px;
-        font-weight: lighter;
-        line-height: 1;
-        text-align: center;
-    }
-
-    .about-main-content--img {
-        width: 100%;
-    }
-    /* About-Page end */
-
-    /* Contact-Page start*/
-    .contact-img-container {
-        height: 200px;
-        /* width: 410px; */
-    }
-
-    .contact-img-container img{
-        width: 100%;
-        height: 100%;
-    }
-
-    .contact-info {
-        width: 100%;
-        border-radius: 5px;
-        background-color: #00ABDB;
-        color: #020B4F;
-    }
-
-    .contact-info p {
-        font-size: 30px;
-        line-height: 1;
-    }
-
-    .contact-main form {
-        width: 100%;
-    }
-
-    .contact-main .form-control {
-        border: 2px solid #00ABDB;
-    }
-
-    .contact-main input.form-control {
-        height: 50px;
-        margin-bottom: 10px;
-        width: 100%;
-    }
-
-
-    .contact-text {
-        font-size: 60px;
-        line-height: 1;
-    }
-     /* Contact-Page end */
-
-
-
-     /* Brands-Page start */
-    .brand-img-container {
-        height: 150px;
-        max-width: 370px;
-    }
-    
-    .brand-img{
-        width: 350px;
-    }
-     /* Brands-Page end */
-}
-
-
-
 @media screen and (max-width:1280px) {
     .brand-img-container{
         width: 50%;
@@ -644,4 +460,189 @@ body{
     }
 
 
+}
+
+@media screen and (max-width: 430px) {
+    .nav-mobile {
+        background-color: #020B4F;
+    }
+
+
+
+    .navbar-brand-logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .nav-link {
+        font-size: 25px;
+    }
+
+    .hero-heading h1 {
+        font-size: 30px;
+    }
+
+    .hero {
+        background-image: url('./../images/home-hero.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 100% 450px;
+        width: 100%;
+        height: 450px;
+    }
+
+    .footer {
+        border-top: 6px solid #00ABDB;
+        background-color: #020B4F;
+    }
+
+    .footer-logo {
+        max-width: 200px;
+        min-width: 100px;
+        /* max-height: 150px; */
+        height: 100px;
+    }
+
+    .footer-social-link {
+        padding-top: 16px;
+        margin-right: 16px;
+    }
+
+    .footer p.fw-bold {
+        font-size: 32px;
+    }
+
+    .footer p.fw-light {
+        font-size: 29px;
+    }
+
+    .footer-img {
+        width: 120px;
+        height: 100px;
+    }
+
+
+    /* Product-Page-Start */
+    .products-card-header h1,
+    .products-card-header p {
+        color: #020B4F;
+        line-height: 1;
+        font-weight: bold;
+    }
+
+    .products-card-header h1 {
+        font-size: 32px;
+    }
+
+    .products-card-header p {
+        font-size: 28px;
+    }
+
+    .product-cards-section {
+        margin-top: 47px;
+        margin-bottom: 167px;
+    }
+
+    .product-cards-section .mt-100 {
+        margin-top: 0;
+    }
+
+    .product-cards-section .pl-18 {
+        padding-left: 0;
+    }
+
+    .product-cards-section .pr-44 {
+        padding-right: 0;
+    }
+
+    .single-product-card {
+        height: 428px;
+    }
+
+    .single-product-card .card-img-top {
+        height: 320px;
+        width: 210px;
+    }
+
+    .single-product-card .card-body {
+        padding: 0;
+        width: 210px;
+    }
+
+    /* Product-Page end */
+
+    /* About-Page start*/
+    .about-main-content p {
+        color: #020B4F;
+        font-size: 47px;
+        font-weight: lighter;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .about-main-content--img {
+        width: 100%;
+    }
+
+    /* About-Page end */
+
+    /* Contact-Page start*/
+    .contact-img-container {
+        height: 200px;
+        /* width: 410px; */
+    }
+
+    .contact-img-container img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-info {
+        width: 100%;
+        border-radius: 5px;
+        background-color: #00ABDB;
+        color: #020B4F;
+    }
+
+    .contact-info p {
+        font-size: 30px;
+        line-height: 1;
+    }
+
+    .contact-main form {
+        width: 100%;
+    }
+
+    .contact-main .form-control {
+        border: 2px solid #00ABDB;
+    }
+
+    .contact-main input.form-control {
+        height: 50px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+
+    .contact-text {
+        font-size: 60px;
+        line-height: 1;
+    }
+
+    /* Contact-Page end */
+
+
+
+    /* Brands-Page start */
+    .brand-img-container {
+        height: 150px;
+        max-width: 370px;
+    }
+
+    .brand-img {
+        width: 350px;
+    }
+
+    /* Brands-Page end */
 }
