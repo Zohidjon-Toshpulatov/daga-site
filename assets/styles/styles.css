@@ -302,7 +302,7 @@ body{
 
 
 .contact-img-container {
-    height: 719px;
+    max-height: 719px;
     width: 100%;
 }
 
@@ -461,6 +461,7 @@ body{
 
 
 }
+
 
 @media screen and (max-width: 430px) {
     .nav-mobile {
