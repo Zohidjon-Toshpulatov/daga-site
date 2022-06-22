@@ -1,5 +1,5 @@
 body{
-    font-family: "Varella+Round";
+    font-family: "Varella+Round", serif;
 }
 
 .header {
@@ -304,6 +304,7 @@ body{
 .contact-img-container {
     max-height: 719px;
     width: 100%;
+    overflow: hidden;
 }
 
 .contact-img-container img {
