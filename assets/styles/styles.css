@@ -16,6 +16,10 @@ body{
     min-width: 109rem;
 }
 
+.navigation .active span{
+    color: #020B4F;
+    font-weight: bold;
+}
 
 .logo {
     position: relative;
@@ -24,7 +28,6 @@ body{
     max-width: 285px;
     z-index: 6;
     max-height: 130px;
-
 }
 
 .logo-placeholder {
@@ -57,6 +60,9 @@ body{
 .navigation span {
     font-size: 30px;
     line-height: 1;
+}
+.navigation .active {
+    color: #020B4F;
 }
 
 .navigation .curve {
@@ -534,10 +540,90 @@ body{
      /* Brands-Page end */
 }
 
+
+
+@media screen and (max-width:1280px) {
+    .brand-img-container{
+        width: 50%;
+    }
+
+    .bg-header{
+        position: absolute;
+        width: 100%;
+        min-width: 80rem;
+        min-height: 30rem;
+    }
+
+    .logo {
+        position: relative;
+        top: -20px;
+        margin: 0 30px;
+        max-width: 285px;
+        z-index: 6;
+        max-height: 100px;
+
+    }
+
+    .navigation li{
+        margin-left: 0 !important;
+        padding: 0 15px;
+    }
+
+    .navigation a{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    
+
+    .navigation span {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .navigation .curve {
+        display: inline-block;
+        width: 30px;
+        height: 15px;
+    }
+}
+
 @media screen and (max-width: 1040px) {
+
+    .bg-header {
+        position: absolute;
+        width: 100%;
+        min-width: 65rem;
+        min-height: 30rem;
+    }
+
+    .navigation span {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .navigation .curve {
+        display: none;
+    }
+
+    .navigation li {
+        margin-left: 0 !important;
+        padding: 0 10px;
+    }
+
+    .logo {
+        position: relative;
+        top: -20px;
+        margin: 0 15px;
+        max-width: 250px;
+        z-index: 6;
+        max-height: 100px;
+    }
+
     .nav-mobile {
         background-color: #020B4F;
-        padding:10px 20px ;
+        padding: 10px 20px;
     }
 
     .navbar-brand-logo {
@@ -549,17 +635,13 @@ body{
         font-size: 25px;
     }
 
-    .contact-main form{
+    .contact-main form {
         width: 100%;
     }
 
-    .contact-info{
+    .contact-info {
         width: 100%;
     }
-}
 
-@media screen and (max-width:1200px) {
-    .brand-img-container{
-        width: 50%;
-    }
+
 }
